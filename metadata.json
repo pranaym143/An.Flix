@@ -1,0 +1,6 @@
+{
+  "name": "AN.FLIX",
+  "description": "The premium website for AN.FLIX – the ultimate luxury anime universe and elite mastermind community.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
