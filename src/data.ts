@@ -1,15 +1,13 @@
 import { Quote, Character, TrendingAnime, Wallpaper, Stat, InstagramPost } from './types';
 
-// Let's use our generated Kiyotaka Ayanokoji Portrait
-// Path: /src/assets/images/ayanokoji_portrait_1780508182835.png
-export const AYANOKOJI_PORTRAIT = '/src/assets/images/ayanokoji_portrait_1780508182835.png';
-export const HERO_BG = '/src/assets/images/hero_cinematic_bg_1780508166814.png';
-export const WALLPAPER_1 = '/src/assets/images/elite_wallpaper_1_1780508201068.png';
-export const JOHAN_PORTRAIT = '/src/assets/images/johan_portrait_1780508990098.png';
-export const L_PORTRAIT = '/src/assets/images/l_portrait_png_1780509697432.png';
-export const JINWOO_PORTRAIT = '/src/assets/images/jinwoo_portrait_1780509897695.png';
-export const GOJO_PORTRAIT = '/src/assets/images/gojo_portrait_1780509915717.png';
-export const INSTAGRAM_AVATAR = '/src/assets/images/ig_profile_1780510333391.png';
+export const AYANOKOJI_PORTRAIT = '/images/ayanokoji_portrait_1780508182835.png';
+export const HERO_BG = '/images/hero_cinematic_bg_1780508166814.png';
+export const WALLPAPER_1 = '/images/elite_wallpaper_1_1780508201068.png';
+export const JOHAN_PORTRAIT = '/images/johan_portrait_1780508990098.png';
+export const L_PORTRAIT = '/images/l_portrait_png_1780509697432.png';
+export const JINWOO_PORTRAIT = '/images/jinwoo_portrait_1780509897695.png';
+export const GOJO_PORTRAIT = '/images/gojo_portrait_1780509915717.png';
+export const INSTAGRAM_AVATAR = '/images/ig_profile_1780510333391.png';
 
 export const QUOTES: Quote[] = [
   {
