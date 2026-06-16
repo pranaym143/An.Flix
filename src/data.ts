@@ -8,8 +8,18 @@ import lPortrait from './assets/images/l_portrait_png_1780509697432.png';
 import jinwooPortrait from './assets/images/jinwoo_portrait_1780509897695.png';
 import gojoPortrait from './assets/images/gojo_portrait_1780509915717.png';
 import instagramAvatar from './assets/images/ig_profile_1780510333391.png';
+import wpCheckmate from './assets/images/checkmate_strategy_1781600229650.jpg';
+import wpSovereign from './assets/images/divine_sovereign_1781600247260.jpg';
+import wpCrimson from './assets/images/crimson_justice_1781600269244.jpg';
+import wpShadow from './assets/images/shadow_domain_1781600288140.jpg';
+import wpLimitless from './assets/images/limitless_blue_1781600308742.jpg';
 
 export const AYANOKOJI_PORTRAIT = ayanokojiPortrait;
+export const IMP_CHECKMATE = wpCheckmate;
+export const IMP_SOVEREIGN = wpSovereign;
+export const IMP_CRIMSON = wpCrimson;
+export const IMP_SHADOW = wpShadow;
+export const IMP_LIMITLESS = wpLimitless;
 export const HERO_BG = heroBg;
 export const WALLPAPER_1 = wallpaper1;
 export const JOHAN_PORTRAIT = johanPortrait;
@@ -187,35 +197,35 @@ export const WALLPAPERS: Wallpaper[] = [
     id: 'w2',
     title: 'Checkmate Strategy',
     category: 'Monochrome Checkmate',
-    imageUrl: 'https://images.unsplash.com/photo-1560179707-f14e90ef3623?auto=format&fit=crop&q=80&w=800', // Dark boardroom chessboard luxury lighting
+    imageUrl: IMP_CHECKMATE,
     aspect: 'landscape'
   },
   {
     id: 'w3',
     title: 'Divine Sovereign',
     category: 'Abstract Royal',
-    imageUrl: 'https://images.unsplash.com/photo-1526289037009-cf140ae24345?auto=format&fit=crop&q=80&w=800', // Dark clean geometric neon gold lines
+    imageUrl: IMP_SOVEREIGN,
     aspect: 'portrait'
   },
   {
     id: 'w4',
     title: 'Crimson Justice',
     category: 'Vigilante Neon',
-    imageUrl: 'https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&q=80&w=800', // Stunning purple-red abstract lights representing high-intellect strategy
+    imageUrl: IMP_CRIMSON,
     aspect: 'landscape'
   },
   {
     id: 'w5',
     title: 'Shadow Domain',
     category: 'Monarch Shadows',
-    imageUrl: 'https://images.unsplash.com/photo-1508739773434-c26b3d09e071?auto=format&fit=crop&q=80&w=800', // Mystical forest dark cyan luxury neon glow
+    imageUrl: IMP_SHADOW,
     aspect: 'portrait'
   },
   {
     id: 'w6',
     title: 'Limitless Blue',
     category: 'Universe Sorcerer',
-    imageUrl: 'https://images.unsplash.com/photo-1462331940025-496dfbfc7564?auto=format&fit=crop&q=80&w=800', // Majestic nebula representation of boundless infinity space
+    imageUrl: IMP_LIMITLESS,
     aspect: 'landscape'
   }
 ];
