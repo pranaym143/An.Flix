@@ -54,7 +54,7 @@ export default function Hero({ onScrollClick }: HeroProps) {
       />
 
       {/* Solid Dark Minimalist Vignette Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-t from-[#050505] via-[#050505]/75 to-[#050505]/90 z-0" />
+      <div className="absolute inset-0 bg-gradient-to-t from-[#050505] via-[#050505]/40 to-[#050505]/20 z-0" />
 
       {/* Luxury Mouse Glowing Spotlight Mask Effect */}
       {isHovering && (
