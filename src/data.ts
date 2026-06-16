@@ -1,13 +1,22 @@
 import { Quote, Character, TrendingAnime, Wallpaper, Stat, InstagramPost } from './types';
 
-export const AYANOKOJI_PORTRAIT = '/images/ayanokoji_portrait_1780508182835.png';
-export const HERO_BG = '/images/hero_cinematic_bg_1780508166814.png';
-export const WALLPAPER_1 = '/images/elite_wallpaper_1_1780508201068.png';
-export const JOHAN_PORTRAIT = '/images/johan_portrait_1780508990098.png';
-export const L_PORTRAIT = '/images/l_portrait_png_1780509697432.png';
-export const JINWOO_PORTRAIT = '/images/jinwoo_portrait_1780509897695.png';
-export const GOJO_PORTRAIT = '/images/gojo_portrait_1780509915717.png';
-export const INSTAGRAM_AVATAR = '/images/ig_profile_1780510333391.png';
+import ayanokojiPortrait from './assets/images/ayanokoji_portrait_1780508182835.png';
+import heroBg from './assets/images/hero_cinematic_bg_1780508166814.png';
+import wallpaper1 from './assets/images/elite_wallpaper_1_1780508201068.png';
+import johanPortrait from './assets/images/johan_portrait_1780508990098.png';
+import lPortrait from './assets/images/l_portrait_png_1780509697432.png';
+import jinwooPortrait from './assets/images/jinwoo_portrait_1780509897695.png';
+import gojoPortrait from './assets/images/gojo_portrait_1780509915717.png';
+import instagramAvatar from './assets/images/ig_profile_1780510333391.png';
+
+export const AYANOKOJI_PORTRAIT = ayanokojiPortrait;
+export const HERO_BG = heroBg;
+export const WALLPAPER_1 = wallpaper1;
+export const JOHAN_PORTRAIT = johanPortrait;
+export const L_PORTRAIT = lPortrait;
+export const JINWOO_PORTRAIT = jinwooPortrait;
+export const GOJO_PORTRAIT = gojoPortrait;
+export const INSTAGRAM_AVATAR = instagramAvatar;
 
 export const QUOTES: Quote[] = [
   {
