@@ -56,7 +56,7 @@ export default function QuoteSlider() {
   return (
     <section 
       id="quotes" 
-      className="relative bg-[#0e0e0e] border-t border-b border-white/5 py-24 overflow-hidden"
+      className="relative bg-[#0e0e0e]/75 backdrop-blur-xs border-t border-b border-white/5 py-24 overflow-hidden"
     >
       {/* Background luxury graphics */}
       <div className="absolute top-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-[#D4AF37]/15 to-transparent" />

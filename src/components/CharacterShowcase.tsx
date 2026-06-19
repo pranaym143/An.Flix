@@ -11,7 +11,7 @@ export default function CharacterShowcase() {
   return (
     <section 
       id="characters" 
-      className="relative bg-[#050505] py-24 px-6 overflow-hidden"
+      className="relative bg-[#050505]/75 backdrop-blur-xs py-24 px-6 overflow-hidden"
     >
       {/* Background premium textures */}
       <div className="absolute inset-0 bg-radial-[ellipse_800px_800px_at_50%_-10%] from-[#D4AF37]/5 via-transparent to-transparent opacity-40 pointer-events-none" />

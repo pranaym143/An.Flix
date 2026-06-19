@@ -42,7 +42,7 @@ export default function Hero({ onScrollClick }: HeroProps) {
       onMouseMove={handleMouseMove}
       onMouseEnter={() => setIsHovering(true)}
       onMouseLeave={() => setIsHovering(false)}
-      className="relative min-h-screen flex items-center justify-center bg-[#050505] text-white overflow-hidden pt-20"
+      className="relative min-h-screen flex items-center justify-center bg-transparent text-white overflow-hidden pt-20"
     >
       {/* Background Cinematic Image with Luxury Dark Overlay */}
       <div 
@@ -53,8 +53,8 @@ export default function Hero({ onScrollClick }: HeroProps) {
         referrerPolicy="no-referrer"
       />
 
-      {/* Solid Dark Minimalist Vignette Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-t from-[#050505] via-[#050505]/40 to-[#050505]/20 z-0" />
+      {/* Solid Dark Minimalist Vignette Overlay - high transparency to see Ayanokoji kiyotaka and the chessboard with supreme clarity */}
+      <div className="absolute inset-0 bg-gradient-to-t from-[#050505] via-[#050505]/15 to-transparent opacity-30 z-0" />
 
       {/* Luxury Mouse Glowing Spotlight Mask Effect */}
       {isHovering && (

@@ -11,6 +11,7 @@ import CommunitySection from './components/CommunitySection';
 import InstagramSection from './components/InstagramSection';
 import Footer from './components/Footer';
 import FloatingCTA from './components/FloatingCTA';
+import ScrollyBackground from './components/ScrollyBackground';
 
 export default function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -61,7 +62,7 @@ export default function App() {
   }, [isLoading]);
 
   return (
-    <div className="bg-[#050505] text-white min-h-screen relative font-sans antialiased selection:bg-[#D4AF37] selection:text-black">
+    <div className="text-white min-h-screen relative font-sans antialiased selection:bg-[#D4AF37] selection:text-black bg-[#050505]">
       
       {/* Intro Entrance Animation Loader */}
       <AnimatePresence mode="wait">
@@ -69,6 +70,9 @@ export default function App() {
           <Loader onComplete={() => setIsLoading(false)} />
         )}
       </AnimatePresence>
+
+      {/* Scroll-driven premium frame animation sequence */}
+      {!isLoading && <ScrollyBackground />}
 
       {/* Main Experience layout */}
       {!isLoading && (

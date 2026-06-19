@@ -28,7 +28,7 @@ export default function WallpaperSection() {
   return (
     <section 
       id="wallpapers" 
-      className="relative bg-[#050505] py-24 px-6 overflow-hidden"
+      className="relative bg-[#050505]/75 backdrop-blur-xs py-24 px-6 overflow-hidden"
     >
       {/* Background radial highlight */}
       <div className="absolute inset-0 bg-radial-[circle_600px_at_10%_90%] from-[#D4AF37]/4 via-transparent to-transparent pointer-events-none" />

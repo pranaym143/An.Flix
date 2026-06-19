@@ -46,7 +46,7 @@ export default function InstagramSection() {
   return (
     <section 
       id="instagram" 
-      className="relative bg-[#050505] py-24 px-6 overflow-hidden"
+      className="relative bg-[#050505]/75 backdrop-blur-xs py-24 px-6 overflow-hidden"
     >
       {/* Absolute top glowing line and background gradients */}
       <div className="absolute top-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-[#D4AF37]/30 to-transparent" />

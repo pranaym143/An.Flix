@@ -16,7 +16,7 @@ export default function Footer({ onNavigate }: FooterProps) {
   return (
     <footer 
       id="main-footer" 
-      className="bg-[#050505] border-t border-white/5 pt-20 pb-12 px-6 relative overflow-hidden"
+      className="bg-[#050505]/75 backdrop-blur-xs border-t border-white/5 pt-20 pb-12 px-6 relative overflow-hidden"
     >
       {/* Structural golden line separator */}
       <div className="absolute top-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-[#D4AF37]/10 to-transparent" />

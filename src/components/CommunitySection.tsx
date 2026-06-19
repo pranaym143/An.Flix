@@ -73,7 +73,7 @@ export default function CommunitySection() {
     <section 
       id="community" 
       ref={sectionRef}
-      className="relative bg-[#0e0e0e] py-24 px-6 border-t border-b border-white/5 overflow-hidden"
+      className="relative bg-[#0e0e0e]/75 backdrop-blur-xs py-24 px-6 border-t border-b border-white/5 overflow-hidden"
     >
       {/* Abstract dark tech background overlay elements */}
       <div className="absolute top-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-[#D4AF37]/25 to-transparent" />
